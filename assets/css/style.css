@@ -1,0 +1,155 @@
+/* 
+
+font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive;
+
+*/
+
+
+/* Global styling */
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-yeseva: 'Yeseva One', cursive;
+    --font-lobster: 'Lobster', cursive;
+    --font-manrope: 'Manrope', sans-serif;
+
+    --color-primary: #333333;
+    --color-body: #3E3E3E;
+    --color-heading: #13103A;
+    --color-accent: #FFAD5A;
+    --color-btn: #FF5959;
+    --color-white: #FFFFFF;
+    --color-footer-accent: #FF5959;
+
+    --background-color-1: rgba(79, 157, 166, 0.1);
+    --background-color-2: rgba(255, 89, 89, 0.1);
+    --background-color-3: #FFF4D6;
+
+    --border-radius-4: 4px;
+    --border-radius-5: 5px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-body);
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+/* Common styling */
+
+.d-flex {
+  display: flex;
+}
+
+.j-c {
+    justify-content: center;
+}
+
+.j-sb {
+    justify-content: space-between;
+}
+
+.a-i {
+    align-items: center;
+}
+
+.ff-cn {
+    flex-flow: column nowrap;
+}
+
+.ff-rn {
+    flex-flow: row nowrap;
+}
+
+.t-l {
+    text-align: left;
+}
+
+.t-r {
+    text-align: right;
+}
+
+/* Common element styling */
+
+.btn-primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 172px;
+    height: 48px;
+    color: var(--color-white);
+    background: var(--color-btn);
+    border-radius: var(--border-radius-5);
+    text-decoration: none;
+}
+
+/* header section start */
+
+#header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-family: var(--font-yeseva);
+    font-size: 2.8125rem;
+    line-height: 80px;
+    padding-left: 15px;
+    background-image: url("../images/shapes/line-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto 83%;
+}
+
+.header-content {
+    margin-top: 60px;
+}
+
+.header-title h1 {
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.header-title h2 {
+    color: var(--color-accent);
+}
+
+.header-article {
+    width: 90%;
+    margin: 15px 0 20px;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.image {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn-explore {
+    margin-bottom: 30px;
+}
+
+/* Header section end */
