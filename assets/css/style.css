@@ -30,6 +30,7 @@ font-family: 'Yeseva One', cursive;
 
     --border-radius-4: 4px;
     --border-radius-5: 5px;
+    --border-radius-card: 26px;
 }
 
 body {
@@ -154,3 +155,53 @@ p {
 }
 
 /* Header section end */
+
+
+/* My mission section start */
+
+#my-mission {
+    width: 85%;
+    margin: 60px auto 85px;
+}
+
+.my-mission-title {
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.cards {
+    margin-top: 50px;
+}
+
+.card {
+    width: 30%;
+    padding: 30px;
+    border-radius: var(--border-radius-card);
+}
+
+.card-content h3 {
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card-image img {
+    width: 141px;
+    height: 141px;
+}
+
+#card-1 {
+    background: var(--background-color-1);
+}
+
+#card-2 {
+    background: var(--background-color-2);
+}
+
+#card-3 {
+    background: var(--background-color-3);
+}
+
+/* My mission section end */
