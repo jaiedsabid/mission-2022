@@ -106,7 +106,7 @@ p {
 /* header section start */
 
 #header {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -123,6 +123,7 @@ p {
 
 .header-content {
     margin-top: 60px;
+    width: 50%;
 }
 
 .header-title h1 {
@@ -135,17 +136,17 @@ p {
 }
 
 .header-article {
-    width: 90%;
     margin: 15px 0 20px;
+    width: 60%;
 }
 
 .header-image {
-    width: 100%;
+    width: 50%;
 }
 
 .image {
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto 0 0;
 }
 
 .btn-explore {
