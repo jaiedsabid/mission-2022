@@ -23,6 +23,7 @@ font-family: 'Yeseva One', cursive;
     --color-btn: #FF5959;
     --color-white: #FFFFFF;
     --color-footer-accent: #FF5959;
+    --color-footer-background: #0B0D17;
 
     --background-color-1: rgba(79, 157, 166, 0.1);
     --background-color-2: rgba(255, 89, 89, 0.1);
@@ -299,3 +300,40 @@ p {
 }
 
 /* Community section start */
+
+
+
+/* Footer start */
+
+footer {
+    width: 100%;
+    padding: 40px 0 45px;
+    background: var(--color-footer-background);
+    color: var(--color-white);
+}
+
+.footer-site-title {
+    font-family: var(--font-lobster);
+    text-align: center;
+}
+
+.footer-site-title > span {
+    display: block;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.footer-site-title-color {
+    color: var(--color-footer-accent);
+}
+
+.site-copy-write-text {
+    font-family: var(--font-manrope);
+}
+
+.site-copy-write-text p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Footer end */
