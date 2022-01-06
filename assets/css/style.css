@@ -192,6 +192,10 @@ p {
     text-align: center;
 }
 
+.my-mission-title span {
+    color: var(--color-accent);
+}
+
 .cards {
     margin-top: 50px;
 }
