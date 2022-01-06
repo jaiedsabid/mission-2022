@@ -339,6 +339,10 @@ p {
     margin-bottom: 50px;
 }
 
+.contact-form-title span {
+    color: var(--color-accent);
+}
+
 .contact-short-message {
     text-align: left;
     font-size: 18px;
