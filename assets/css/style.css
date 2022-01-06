@@ -126,7 +126,7 @@ p {
 
 #header {
     width: 85%;
-    margin: 0 auto;
+    margin: 30px auto 0;
 }
 
 .header-title {
@@ -161,6 +161,10 @@ p {
 
 .header-image {
     width: 50%;
+}
+
+.header-image > img {
+    width: 60%;
 }
 
 .image {
