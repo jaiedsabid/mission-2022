@@ -98,6 +98,7 @@ p {
     padding: 12px;
     width: 172px;
     height: 48px;
+    font-size: 16px;
     color: var(--color-white);
     background: var(--color-btn);
     border-radius: var(--border-radius-5);
@@ -211,3 +212,41 @@ p {
 }
 
 /* My mission section end */
+
+
+
+/* Develop section start */
+
+#develop {
+    width: 100%;
+    background-image: url('../images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: 30px 55px;
+    background-size: 15% auto;
+    margin-bottom: 85px;
+}
+
+.develop-wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.develop-heading {
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.develop-heading span {
+    display: block;
+}
+
+.develop-description {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+.documentation-button a {
+    width: 243px;
+}
+/* Develop section end */
