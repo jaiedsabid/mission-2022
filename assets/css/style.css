@@ -57,6 +57,10 @@ p {
 
 /* Common styling */
 
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
 .d-flex {
   display: flex;
 }
